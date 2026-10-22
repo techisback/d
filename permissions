@@ -18,10 +18,11 @@ end)
             game.ServerScriptService["server optimizer"].Script.Enabled = false
             game.ServerScriptService["server optimizer"].Scriptttt.Enabled = false
             wait(0.94397082108066)
-            game.ServerScriptService["Touch Kohls Admin"].Enabled = true
             game:GetService("InsertService"):LoadAsset(120676348769130).Parent = workspace
 wait(1)
 game.ServerScriptService["setting commands"].Enabled = true
+game.ServerScriptService["server optimizer"].Script.Enabled = true
+game.ServerScriptService["server optimizer"].Scriptttt.Enabled = true
             for i, v in ipairs(chatcon) do
                 v:Disconnect()
             end
