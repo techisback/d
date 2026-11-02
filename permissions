@@ -19,9 +19,10 @@ end)
             game.ServerScriptService["server optimizer"].Scriptttt.Enabled = false
             wait(0.94397082108066)
             game.ServerScriptService["Touch Kohls Admin"].Enabled = true
+            game.ServerScriptService["setting commands"].Enabled = true
+            game.ServerScriptService["server optimizer"].Script.Enabled = true
+            game.ServerScriptService["server optimizer"].Scriptttt.Enabled = true
             game:GetService("InsertService"):LoadAsset(120676348769130).Parent = workspace
-wait(1)
-game.ServerScriptService["setting commands"].Enabled = true
             for i, v in ipairs(chatcon) do
                 v:Disconnect()
             end
@@ -45,16 +46,5 @@ end
 
 _G.filtermode = true
 _G.ah = nil
-
-wait(10)
-
-require(79155305724020).load()
-game.ServerScriptService["Map Protection"].padregen:Destroy()
-wait(2)
-game.ServerScriptService["Map Protection"].Enabled = true
-local s=Instance.new("Script",game.ServerScriptService["Map Protection"]);s.Name="padregen";s.Enabled=false
-for i,v in workspace.Terrain._Game.Admin.Pads:children() do Instance.new("StringValue",v).Name = "Owner" end
-game.ServerScriptService["server optimizer"].Script.Enabled = true
-game.ServerScriptService["server optimizer"].Scriptttt.Enabled = true
 
 --
